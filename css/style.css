@@ -1,0 +1,22 @@
+.logo{
+    width: 100px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #3D58A6;
+}
+
+a:hover{
+    color: #EE4036;
+}
+
+.social-icon{
+    height: 30px;
+}
