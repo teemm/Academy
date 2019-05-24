@@ -1,3 +1,15 @@
+/* base classes */
+.display-inline-block{
+    display: inline-block;
+}
+.vertical-middle{
+    vertical-align: middle
+}
+.vertical-top{
+    vertical-align: top
+}
+/* base classes */
+
 /*  header styles  */
 .logo{
     width: 100px;
@@ -7,11 +19,15 @@
     padding-left: 30px;
     /* background-color: #EE4036; */
 }
-nav  a{
+nav li{
+    margin: auto 7.5px;
+}
+nav a{
     color: #3D58A6;
     padding: 7.5px 0;
     padding-top: 15px;
     display: inline-block;
+    font-family: 'BPG Nino Mtavruli Bold';
 }
 
 a:hover{
@@ -61,25 +77,36 @@ a:hover{
     display: inline-block;
     font-size: 58px;
     color: #ffffff;
-    padding: 5px;
+    font-family: 'BPG Nino Mtavruli';
+    padding: 7px 7px 0 7px;
 }
 .moth{
     color: #3D58A6;
-    font-size: 26px;
+    font-size: 22px;
     margin: 10px auto;
+    font-family: 'BPG Nino Mtavruli';
 }
 .article-title{
-    font-size: 28px;
+    font-size: 20px;
+    font-family: 'BPG Nino Mtavruli';
     margin: 15px auto 20px auto;
 }
 .article-img{
     margin-bottom: 40px;
+    width: 270px;
+}
+.text {
+    width: calc(100% - 270px);
+    padding-left: 40px;
 }
 .text p{
     padding-bottom: 25px;
+    font-family: "BPG Ingiri Arial";
+    font-size: 16px;
 }
 .text p:last-child{
     padding-bottom: 0;
+
 }
 /*  articles block  */
 
