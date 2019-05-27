@@ -8,6 +8,10 @@
 .vertical-top{
     vertical-align: top
 }
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
 /* base classes */
 
 /*  header styles  */
@@ -30,15 +34,15 @@ nav a{
     font-family: 'BPG Nino Mtavruli Bold';
 }
 
-a:hover{
+nav a:hover{
     color: #EE4036;
 }
 /* end header styles  */
 
 /* banner */
 .banner{
-    padding-top: 20px;
-    padding-left: 30px;
+   padding-top: 30px; 
+   padding-bottom: 120px;
 }
 /*  end banner  */
 /* footer */
@@ -47,7 +51,8 @@ a:hover{
 }
 .footer{
     /* padding-left: 30px; */
-    padding: 30px;
+    /* padding: 30px; */
+    padding: 30px 0;
 }
 .footer-social-list{
     display: inline-block;
@@ -86,7 +91,7 @@ a:hover{
     margin: 10px auto;
     font-family: 'BPG Nino Mtavruli';
 }
-.article-title{
+.articles-block .article-title{
     font-size: 20px;
     font-family: 'BPG Nino Mtavruli';
     margin: 15px auto 20px auto;
@@ -120,3 +125,78 @@ a:hover{
     text-align: center;
 }
 /* end contact page */
+
+/* feature block */
+.article-section .article-title{
+    font-family: 'RobotoRegular';
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-bottom: 35px;
+}
+.article-section .article-title a{
+    text-transform: lowercase;
+}
+.feature-arcile{
+    background-color: #F2F2F2;
+    width: 570px;
+    padding: 20px 20px 40px 20px;
+    font-family: "RobotoRegular";
+}
+.feature-arcile .feature-article-title{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #3D58A6;
+    text-transform: uppercase;
+}
+.feature-arcile:last-child{
+    margin-left: 30px;
+}
+.feature-arcile img{
+    width: 100px;
+}
+.feature-arcile p{
+    width: calc(100% - 100px);
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 28px;
+}
+/*  end feature block  */
+
+/* contact block */
+.contacnt-section{
+    background-color: #E6E6E6;
+    padding: 30px 0;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+}
+.contact-title{
+    font-family: 'BPG Nino Mtavruli Bold';
+    font-size: 20px;
+    color: #3D58A6;
+}
+.contact-li{
+    font-family: 'BPG Ingiri Arial';
+    font-size: 16px;
+    line-height: 28px;
+}
+.contact-li .desctiption{
+    color: #808080;
+}
+.contact-li .contact-a{
+    color: #000000;
+}
+.contacnt-section .right-block{
+    width: 875px;
+    height: 465px;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}
+.contacnt-section .left-block{
+   width: calc(100% - 875px); 
+}
+
+.contacnt-section .right-block iframe{
+    width: 100%;
+    height: 100%;
+}
+/* end contact block */

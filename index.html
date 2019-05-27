@@ -11,27 +11,42 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html" class="display-block vertical-middle">
+        <a href="index.html" class="display-inline-block vertical-middle">
             <img class="logo" src="img/logo.svg" alt="logo">
         </a>
-        <nav class="display-block vertical-middle">
+        <nav class="display-inline-block vertical-middle">
             <ul>
-                <li class="display-block">
+                <li class="display-inline-block">
                     <a href="index.html">მთავარი</a>
                 </li>
-                <li class="display-block">
+                <li class="display-inline-block">
                     <a href="news.html">სიახლები</a>
                 </li>
-                <li class="display-block">
+                <li class="display-inline-block">
                     <a href="contact.html">კონტაქტი</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="banner">
+    <section class="banner container">
         <img src="img/cover.png" alt="cover">
     </section>
-    <footer class="footer">
+    <section class="article-section container">
+         <h1 class="article-title">Featured | <a href="javascript:void(0)">view all featured media</a></h1>
+         <div class="feature-article-wrapper">
+             <article class="feature-arcile vertical-middle display-inline-block">
+                 <h2 class="feature-article-title">Responsive Web Design</h2>
+                 <img class="display-inline-block vertical-top" src="img/finger.png" alt="finger"><!--
+                 --><p class="display-inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+             </article><!--
+             --><article class="feature-arcile vertical-middle display-inline-block">
+                <h2 class="feature-article-title">Responsive Web Design</h2>
+                <img class="display-inline-block vertical-top" src="img/finger.png" alt="finger"><!--
+                --><p class="display-inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+            </article>
+         </div>
+    </section>
+    <footer class="footer container">
         <a class="footer-social-list fb" href="https://www.facebook.com/" target="_blank">
             <img class="social-icon" src="img/fb_1.svg" alt="fb">
         </a>
